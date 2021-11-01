@@ -1,5 +1,6 @@
 :root {
     --primary-color: #e50914;
+    --dark-color: #141414;
 }
 
 *{
@@ -104,6 +105,14 @@ img{
     font-weight: 400;
     font-size: 1.9rem;
     line-height: 0 0 2rem;
+}
+
+/* TABS ---------------------------------------------------------------------- */
+.tabs {
+    background: var(--dark-color);
+    padding-top: 1rem;
+    border-bottom: 3px solid #3d3d3d;
+    
 }
 
 /* BUTTONS ---------------------------------------------------------------------- */
